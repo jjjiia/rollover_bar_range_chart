@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="nv.d3.css" rel="stylesheet" type="text/css">
+<script src="static/javascripts/d3.v3.min.js"></script>
+<script src="static/javascripts/topojson.v1.min.js"></script>
+<script src="static/javascripts/jquery.min.js"></script>
+<script src="static/javascripts/d3.tip.v0.6.3.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="static/javascripts/jquery-ui.min.js"></script>
+<link href="static/bootstrap-3.1.1-dist/css/bootstrap-glyphicons.css" rel="stylesheet">
+<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
+    <script src="nv.d3.js"></script>
+
+    <style>
+body{
+font-family:Helvetica;
+color:#000;
+background-color:#fff;
+}
+#title { padding:20px;            
+        letter-spacing:2px;
+    }
+text {
+  font-family:Helvetica;
+    font: 12px sans-serif;
+    color:#000;    
+}
+#chart1{position:fixed;left:50px;top:50px;}
+#rollover{position:absolute;left:90px;top:450px;width:200px}
+
+.axis path{
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+    </style>
+</head>
+<body>
+ 
+        <div id="title">Wednesday, Friday, Saturday range for each industry</div>
+        <div id="chart1"><br/></div>
+<div id ="rollover">rollover text</div>
+        <script src="chart.js"></script>
+
+<script>
+
+</script>
+</body>
+</html>
